@@ -11,7 +11,7 @@ const SplashScreen = () => {
     useEffect(() => {
         // Show the splash screen for 3 seconds before navigating to the main screen
         setTimeout(() => {
-          navigation.navigate("home"); // Replace 'Main' with your main screen component
+          navigation.replace("home"); // Replace 'Main' with your main screen component
         }, 1500);
       }, []);
     
